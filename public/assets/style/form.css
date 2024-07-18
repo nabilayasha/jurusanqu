@@ -1,0 +1,29 @@
+.page-orange {
+  min-height: 100vh;
+  background-color: #ff9900;
+  position: relative;
+}
+
+.content-hero {
+  min-height: 100vh;
+  gap: 40px;
+  padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.content-hero .card {
+  width: 100%;
+  max-width: 850px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  max-width: 612px;
+  max-height: 412px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

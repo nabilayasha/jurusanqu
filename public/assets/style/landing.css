@@ -1,0 +1,42 @@
+.page-orange {
+  min-height: 100vh;
+  background-color: #ff9900;
+  position: relative;
+}
+
+.content-hero {
+  min-height: 100vh;
+  gap: 40px;
+  padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.btn-start {
+  font-size: 42px;
+  font-weight: 600;
+  padding: 15px 25px;
+  background-color: white;
+  border: 2px solid #0000;
+}
+
+.btn-start:hover {
+  background-color: #292929;
+  color: white;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  max-width: 512px;
+}
+
+@media screen and(max-width: 768px) {
+  .hero-img{
+    max-width: 300px;
+  }
+
+  .btn-start{
+    font-size: 32px;
+    padding: 7px 14px;
+  }
+}

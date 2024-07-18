@@ -1,0 +1,61 @@
+.hero-result-section {
+    background-color: #ff9900;
+    gap: 15px;
+    border-radius: 0px 0px 40px 40px;
+    padding: 60px 0;
+}
+
+.hero-result-section .result-img {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    padding: 5px;
+    object-fit: contain;
+    overflow: hidden;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    border: 5px solid #ffff;
+}
+
+.hero-result-section .result-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.recom-card {
+    height: 326px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+    border: 2px solid #ff9900;
+}
+
+.recom-card .recom-bg {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+}
+
+.recom-card .recom-label {
+    background-color: #3774eac2;
+    color: white;
+    padding: 25px 15px;
+    width: 100%;
+}
+
+.result-point {
+    width: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE3BA;
+}
